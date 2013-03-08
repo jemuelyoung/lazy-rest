@@ -25,4 +25,4 @@ The script will ask you for a url parameter and will perform a GET on that url
     URL: www.example.com
     
 ## Notes
-For a full featured HTTP Python library, I highly reccomend [Requests](http://docs.python-requests.org/en/latest/)
+For a full featured HTTP Python library, I highly recommend [Requests](http://docs.python-requests.org/en/latest/)
