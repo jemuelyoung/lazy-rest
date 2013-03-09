@@ -18,6 +18,7 @@ class LazyRest():
         # make sure input is valid url
         if not url.startswith("http://"):
             self.url = "http://" + url
+
         self.data ={}
         # if data is provided, pass and format to data dict
         if len(argv) > 2:
@@ -36,8 +37,10 @@ class LazyRest():
            
         try:
             if self.data:
+                # POST
                 response = urllib2.urlopen(request, self.data)
             else:
+                # GET
                 response = urllib2.urlopen(request)
             print response.read()
         except (URLError):
@@ -47,5 +50,5 @@ class LazyRest():
         self.input_processing()
         self.execute(self.url)
     
-lr = LazyRest()    
+lr = LazyRest()
 lr.run()
