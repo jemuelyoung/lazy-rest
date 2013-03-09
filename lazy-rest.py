@@ -1,7 +1,6 @@
-"""
-Author: Jem Young - jemuel.young@gmail.com
-Date: 3/2013
-"""
+# Jem Young - jemuel.young@gmail.com
+# 3/2013
+
 
 from sys import argv
 from urllib2 import URLError
