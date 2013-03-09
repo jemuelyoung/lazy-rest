@@ -1,7 +1,6 @@
 # Jem Young - jemuel.young@gmail.com
 # 3/2013
 
-
 from sys import argv
 from urllib2 import URLError
 import urllib
@@ -48,6 +47,6 @@ class LazyRest():
     def run(self):
         self.input_processing()
         self.execute(self.url)
-    
-lr = LazyRest()
-lr.run()
+
+if __name__ == '__main__':
+    LazyRest().run()
