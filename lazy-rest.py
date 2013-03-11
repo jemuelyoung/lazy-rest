@@ -36,6 +36,7 @@ class LazyRest():
         try:
             if self.data:
                 # POST
+                request.add_header("Content-type:", "multipart/form-data")
                 response = urllib2.urlopen(request, self.data)
             else:
                 # GET
