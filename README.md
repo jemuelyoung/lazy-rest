@@ -23,6 +23,11 @@ The script will ask you for a url parameter and will perform a GET on that url
     
     jem@ubuntu:~$ python lazy-rest.py
     URL: www.example.com
+
+### To Do
+-Finish Javascript version
+
+-Add php and ruby versions
     
 ## Notes
 For a full featured HTTP Python library, I highly recommend [Requests](http://docs.python-requests.org/en/latest/)
