@@ -1,6 +1,6 @@
 ;
 function input_processing(url, data){
-	var self = this, request;	
+	var self = this, request;
 	request = new XMLHttpRequest();
 	
 	if(url.lastindexof("http://",0) === 0){
